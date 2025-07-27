@@ -1,0 +1,222 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+
+all: unset;
+
+  overflow-x: hidden;
+}
+
+
+div#root{
+
+
+
+}
+
+a{
+
+text-decoration: none !important;
+  color: #ffffff !important;
+}
+ul{
+
+  list-style-type: none;
+}
+
+#Home{
+margin-top: 12px;
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #1ABC9C;
+
+}
+
+
+.main-contect {
+text-align: center;
+
+  color: #fff;
+}
+
+.main-contect h1{
+text-transform: capitalize;
+  font-size: 50px;
+
+
+}
+
+
+.logo{
+
+font-size: 30px;
+  font-weight: 700;
+
+
+}
+
+.my-nav{
+
+height: 80px !important;
+background-color: #2C3E50 !important;
+
+}
+
+
+.image-home{
+
+width: 300px ;
+
+
+}
+
+.about{
+  width: 100vw;
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+background-color: #1ABC9C;
+
+}
+
+.about-content{
+margin-top: 50px;
+color: #ffffff;
+}
+
+.about-content h2{
+font-size: 50px;
+text-transform: capitalize;
+
+
+}
+
+.about-content .pargrapg{
+
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.about-content .p-about{
+padding-top: 20px;
+width: 45%;
+
+}
+
+
+h2.effect{
+margin: auto;
+  width: 100%;
+
+}
+
+
+
+
+/* ////////////// */
+
+
+.row .item-port {
+
+height: 300px;
+margin-top: 15px;
+
+}
+
+.row .item img{
+
+border-radius: 10px;
+box-shadow: 0px 0px 10px #2C3E50;
+}
+
+
+/* ********** */
+
+.effect-por{
+position: absolute;
+inset: 0;
+background-color: rgba(0, 0, 0, 0.5);
+opacity: 0;
+}
+
+
+.item-port  {
+position: relative;
+}
+
+.col:hover .effect-por{
+  opacity: 1;
+}
+
+/*  footer ^^^ */
+
+.footer{
+margin-top: 50px;
+padding: 20px;
+  background-color: #2C3E50 !important;
+
+  text-align: center;
+}
+
+
+.footer .item{
+
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+padding: 8px 5px;
+color: #ffffff;
+
+}
+
+.footer .item H2{
+
+  font-size: 35px;
+font-weight: 600px;
+
+}
+
+.footer .item span {
+display: block;
+  padding-top: 15px;
+  padding-left: 12px;
+}
+
+.footer .item span i{
+
+font-size: 20px;
+margin-left: 10px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+padding-top: 12px ;
+border: 1px solid #ffffff;
+}
+
+.footer .item span :hover{
+background-color: #1ABC9C;
+
+
+
+}
