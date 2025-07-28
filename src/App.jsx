@@ -7,7 +7,7 @@ import Portfolio from './Portfolio';
 import Layout from './Layout';
 import Contact from './Contact';
 
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter , RouterProvider} from 'react-router-dom';
 
 
 let x = createBrowserRouter( [

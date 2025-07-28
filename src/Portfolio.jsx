@@ -7,8 +7,8 @@ import port3 from './assets/port3.png'
 
 
 
-export default function Portfolio() {
 
+export default function Portfolio() {
 
 
   return (  
@@ -23,7 +23,7 @@ export default function Portfolio() {
 <div className="item-port ">
   <div className='effect-por'> </div>
 
-<img src={port1} className=' w-100' />
+<img  src={port1} className=' w-100' />
 </div>
 
 
